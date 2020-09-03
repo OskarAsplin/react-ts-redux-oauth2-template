@@ -4,7 +4,7 @@ A React app template written in Typescript with Redux store and OAuth 2.0. Does 
 Register your app [here](https://developer.spotify.com/documentation/web-api) to retrieve a client ID and add http://localhost:3000 to Redirect URIs in the app settings.
 
 ### Use with other services
-Edit the files in src/features/spotifyExample/ to fit your scenario. Or remove the example by deleting the files and remove the SpotifyExample component `<SpotifyExample />` from App.tsx and remove `spotifyExample: spotifyExampleReducer` from store.ts.
+Edit the files in src/features/spotifyExample/ to fit your scenario. Or remove the example by removing `<SpotifyExample />` from App.tsx and `spotifyExample: spotifyExampleReducer` from store.ts.
 
 ## Try it out
 
