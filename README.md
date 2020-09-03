@@ -1,4 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+A React app template written in Typescript with Redux store and OAuth 2.0. Does not require any server running. The authorization example in the template is for [Spotify Web API](https://developer.spotify.com/documentation/web-api/) but can be used for any service using the same authorization flow.
+
+### Use with Spotify
+Register your app [here](https://developer.spotify.com/documentation/web-api) to retrieve a client ID and add http://localhost:3000 to Redirect URIs in the app settings.
+
+### Use with other services
+Edit the files in src/features/spotifyExample/ to fit your scenario. Or remove the example by deleting the files and remove the SpotifyExample component `<SpotifyExample />` from App.tsx and remove `spotifyExample: spotifyExampleReducer` from store.ts.
+
+## Try it out
+
+1. Clone the repository
+2. Navigate to the root directory of the repository
+3. `npm install`
+4. `cp .env.local_EXAMPLE .env.local` and fill `REACT_APP_SPOTIFY_CLIENT_ID` with your client id
+5. `npm start`
+
+### Template built with
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the official Typescript and Redux template: https://github.com/reduxjs/cra-template-redux-typescript
+
+# Create React App standard build notes:
 
 ## Available Scripts
 
