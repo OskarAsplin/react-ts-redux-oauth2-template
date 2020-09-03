@@ -1,6 +1,6 @@
 A React app template written in Typescript with Redux store and OAuth 2.0. Does not require any server running. The authorization example in the template is for the [Spotify Web API](https://developer.spotify.com/documentation/web-api/) but can be used for any service with the same authorization flow.
 
-A tutorial explaining the making of this template is found here: 
+Tutorial on Medium: [medium.com/@oskarasplin/create-a-react-app-with-typescript-redux-and-oauth-2-0-7f62d57890df](https://medium.com/@oskarasplin/create-a-react-app-with-typescript-redux-and-oauth-2-0-7f62d57890df)
 
 ### Use with Spotify
 Register your app [here](https://developer.spotify.com/documentation/web-api) to retrieve a client ID and add http://localhost:3000 to Redirect URIs in the app settings.
