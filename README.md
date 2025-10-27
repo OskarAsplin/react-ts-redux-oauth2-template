@@ -1,3 +1,12 @@
+## ⚠️ ARCHIVED - NOT RECOMMENDED
+
+This repository is archived and I do not recommend using this approach anymore. My recommendation as of 2025 for modern React applications:
+
+- **For API handling**: Use [TanStack Query](https://tanstack.com/query)
+- **For global state management**: Use [Zustand](https://github.com/pmndrs/zustand)
+
+---
+
 A React app template written in Typescript with Redux store and OAuth 2.0. Does not require any server running. The authorization example in the template is for the [Spotify Web API](https://developer.spotify.com/documentation/web-api/) but can be used for any service with the same authorization flow.
 
 Tutorial on Medium: [medium.com/@oskarasplin/create-a-react-app-with-typescript-redux-and-oauth-2-0-7f62d57890df](https://medium.com/@oskarasplin/create-a-react-app-with-typescript-redux-and-oauth-2-0-7f62d57890df)
